@@ -1,4 +1,8 @@
 
+ARG PORT
+
+ENV PORT=$PORT
+
 FROM python:3.10 as requirements-stage
 
 WORKDIR /tmp
